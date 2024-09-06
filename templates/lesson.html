@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>{{ lesson.title }}</h1>
+<p>{{ lesson.content }}</p>
+<a href="{{ url_for('quiz', lesson_id=lesson.id) }}">Take Quiz</a>
+{% endblock %}
