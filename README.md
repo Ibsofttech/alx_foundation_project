@@ -3,8 +3,7 @@
 ## Introduction
 PhysioLearn is an interactive learning platform designed to help students and professionals master the complexities of human physiology. Through dynamic lessons, quizzes, and progress tracking, the platform provides a comprehensive and engaging way to learn. This project was built as part of the Holberton School Portfolio Project, showcasing core skills in web development and design.
 
-Deployed Site: **PhysioLearn**
-Final Project Blog: Link to Blog Article
+Deployed Site: **PhysioLearn**  
 Author:  
 **Muibi Ibrahim Kayode**  
 [LinkedIn](https://www.linkedin.com/in/ibrahim-muibi-281288261/)  
