@@ -5,7 +5,7 @@ PhysioLearn is an interactive learning platform designed to help students and pr
 
 Deployed Site: **PhysioLearn**
 Final Project Blog: Link to Blog Article
-Author:
+Author:  
 **Muibi Ibrahim Kayode**
 [LinkedIn](https://www.linkedin.com/in/ibrahim-muibi-281288261/)
 [GitHub](https://github.com/Ibsofttech/alx_foundation_project.git)
@@ -40,10 +40,10 @@ For Linux users:
 xdg-open index.html
 ```
 
-Usage
+Usage  
 PhysioLearn provides an interactive interface to learn about various topics in human physiology. Navigate through the home, features, and about sections, or explore quizzes and other learning tools on the platform.
 
-Example Usage:
+Example Usage:  
 Visit the home page for an overview of the project.
 Explore different physiology topics via interactive modules.
 Test your knowledge with quizzes in each section.
