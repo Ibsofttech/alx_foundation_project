@@ -6,8 +6,8 @@ PhysioLearn is an interactive learning platform designed to help students and pr
 Deployed Site: **PhysioLearn**
 Final Project Blog: Link to Blog Article
 Author:  
-**Muibi Ibrahim Kayode**
-[LinkedIn](https://www.linkedin.com/in/ibrahim-muibi-281288261/)
+**Muibi Ibrahim Kayode**  
+[LinkedIn](https://www.linkedin.com/in/ibrahim-muibi-281288261/)  
 [GitHub](https://github.com/Ibsofttech/alx_foundation_project.git)
 
 ##Installation
