@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysioLearn</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="top_bar">
+        <img src="{{ url_for('static', filename='img/login.png') }}" alt="login icon" class="login">
+        <p><a href="{{ url_for('login') }}">Login</a></p>
+        <img src="{{ url_for('static', filename='img/search.png') }}" alt="search icon">
+        <p><a href="#">Search</a></p>
+        <img src="{{ url_for('static', filename='img/main-menu.png') }}" alt="menu icon">
+        <p><a href="#">Menu</a></p>
+    </div>
+    <!-- Intro Section -->
+    <header class="intro-section">
+        <div class="intro-container">
+            >
+            <h1>PhysioLearn</h1>
+            <p>Master Human Physiology with Interactive Lessons</p>
+
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+
+            <!-- Button to Deployed Application -->
+            <a href="https://deployed-project-url.com" class="btn-cta" target="_blank">Try the App</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>About Physiology</h2>
+
+        <p>
+            <strong>Physiology</strong> is the scientific study of how living organisms function, focusing on physical and biochemical processes that allow organisms to survive, grow, and respond to their environment. It examines everything from cellular functions to complex interactions between organs and systems. Physiology seeks to answer questions such as: how does the heart pump blood, how do muscles contract, and how do our lungs extract oxygen?
+        </p>
+
+        <h3>Human Physiology</h3>
+        <p>
+            Human physiology specifically focuses on how the body’s systems, organs, tissues, and cells work together to maintain balance and ensure survival. Key systems include the cardiovascular, respiratory, digestive, nervous, and endocrine systems, which all collaborate to keep the body functioning smoothly.
+        </p>
+
+        <h3>Why is Physiology Important?</h3>
+        <p>
+            Understanding physiology is crucial for many fields like medicine and health. It provides insights into how the body responds to diseases, injuries, and environmental changes. By studying physiology, we can learn how bodily systems regulate themselves, maintain homeostasis, and how disruptions lead to conditions like heart disease, diabetes, or respiratory failure.
+        </p>
+
+        <h3>Inspiration for PhysioLearn</h3>
+        <p>
+            The motivation for creating <strong>PhysioLearn</strong> came from a desire to make human physiology easier and more engaging for learners. As a physiology graduate, I experienced the challenges of understanding complex concepts from textbooks. This platform was built to simplify those challenges through interactive lessons, dynamic visualizations, and tools that help bring human physiology to life in a fun and educational way.
+        </p>
+
+        <h3>How PhysioLearn Helps</h3>
+        <p>
+            PhysioLearn uses interactive tools to enhance learning, including:
+            <ul>
+                <li><strong>Visualizations:</strong> Dynamic animations and diagrams to help illustrate complex processes.</li>
+                <li><strong>Interactive Lessons:</strong> Engaging content that explains key topics such as how the nervous system controls movement and how the circulatory system works.</li>
+                <li><strong>Assessments:</strong> Quizzes to test understanding and track progress.</li>
+            </ul>
+        </p>
+
+        <h3>Conclusion</h3>
+        <p>
+            Physiology is an essential field that helps us understand how our bodies function. By offering interactive lessons and easy-to-follow content, PhysioLearn is designed to make learning about human physiology accessible and enjoyable for everyone.
+        </p>
+    </section>
+    <section id="features" class="features-section">
+        <h2>Key Features</h2>
+        <div class="features-container">
+            <!-- Feature 1 -->
+            <div class="feature">
+                <img src="img/images.png" alt="Interactive Lessons" class="interact_img">
+                <h3>Interactive Lessons</h3>
+                <p>Engage with detailed, dynamic lessons that explain key concepts of human physiology with ease and clarity.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature">
+                <img src="img/quiz.avif" alt="Quizzes and Assessments" class="quiz_img">
+                <h3>Quizzes and Assessments</h3>
+                <p>Test your knowledge with interactive quizzes and immediate feedback. Track your performance and focus on areas that need improvement.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature">
+                <img src="img/progress.jpg" alt="Progress Tracking" class="progress_img">
+                <h3>Progress Tracking</h3>
+                <p>Monitor your learning journey with personalized progress tracking. Set goals, view achievements, and stay motivated.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About This Project</h2>
+        <p>
+            PhysioLearn was inspired by my own journey as a physiology graduate, looking for ways to make learning human physiology more engaging and interactive.
+        </p>
+        <p>
+            This project, developed as part of my Holberton School portfolio, is designed to help learners visualize and understand complex topics through hands-on experience.
+        </p>
+        
+        <!-- Links to Team Members -->
+        <div class="team-section">
+            <h3>Meet the Team</h3>
+            <ul class="team-links">
+                <li>
+                    <h4>Ibrahim - Backend Developer</h4>
+                    <a href="https://www.linkedin.com/in/ibrahim-muibi-281288261/" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/Ibsofttech" target="_blank">GitHub</a> |
+                    <a href="https://x.com/Ibsofttech" target="_blank">Twitter</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- GitHub Repository Link -->
+        <div class="repo-link">
+            <p>Project Repository</p>
+            <a href="https://github.com/Ibsofttech/alx_foundation_project" target="_blank">GitHub Repository</a>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
