@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhysioLearn</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
     <div class="top_bar">
-        <img src="{{ url_for('static', filename='img/login.png') }}" alt="login icon" class="login">
-        <p><a href="{{ url_for('login') }}">Login</a></p>
-        <img src="{{ url_for('static', filename='img/search.png') }}" alt="search icon">
-        <p><a href="#">Search</a></p>
-        <img src="{{ url_for('static', filename='img/main-menu.png') }}" alt="menu icon">
-        <p><a href="#">Menu</a></p>
+        <img src="static/img/login.png" alt="login icon" class="login"><p><a href="#">Login</a></p>
+        <img src="static/img/search.png" alt="search icon"><p><a href="#">Search</a></p>
+        <img src="static/img/main-menu.png" alt="menu icon"><p><a href="#">Menu</a></p>
     </div>
     <!-- Intro Section -->
     <header class="intro-section">
@@ -77,21 +74,21 @@
         <div class="features-container">
             <!-- Feature 1 -->
             <div class="feature">
-                <img src="img/images.png" alt="Interactive Lessons" class="interact_img">
+                <img src="static/img/images.png" alt="Interactive Lessons" class="interact_img">
                 <h3>Interactive Lessons</h3>
                 <p>Engage with detailed, dynamic lessons that explain key concepts of human physiology with ease and clarity.</p>
             </div>
 
             <!-- Feature 2 -->
             <div class="feature">
-                <img src="img/quiz.avif" alt="Quizzes and Assessments" class="quiz_img">
+                <img src="static/img/quiz.avif" alt="Quizzes and Assessments" class="quiz_img">
                 <h3>Quizzes and Assessments</h3>
                 <p>Test your knowledge with interactive quizzes and immediate feedback. Track your performance and focus on areas that need improvement.</p>
             </div>
 
             <!-- Feature 3 -->
             <div class="feature">
-                <img src="img/progress.jpg" alt="Progress Tracking" class="progress_img">
+                <img src="static/img/progress.jpg" alt="Progress Tracking" class="progress_img">
                 <h3>Progress Tracking</h3>
                 <p>Monitor your learning journey with personalized progress tracking. Set goals, view achievements, and stay motivated.</p>
             </div>
@@ -129,6 +126,6 @@
     </section>
 
     <!-- JavaScript -->
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="static/js/main.js"></script>
 </body>
 </html>
